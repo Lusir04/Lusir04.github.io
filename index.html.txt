@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brady LU | 投资分析师 - 宏观研究与资产配置</title>
+    <meta name="description" content="湖南大学金融工程毕业，专注宏观预测、贵金属分析与中长期价值投资，CFA备考中。">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Brady LU</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">关于</a></li>
+                <li><a href="#projects" class="nav-link">研究项目</a></li>
+                <li><a href="#skills" class="nav-link">核心能力</a></li>
+                <li><a href="#contact" class="nav-link">联系</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="菜单">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">你好，我是</p>
+                    <h1 class="hero-title">
+                        <span class="typing-text">投资分析师</span>
+                        <span class="cursor">|</span>
+                    </h1>
+                    <p class="hero-description">
+                        湖南大学金融工程毕业，专注于宏观预测与大宗商品趋势分析，致力于通过资金流向与波动率洞察发现中长期价值洼地。
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>查看研究</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="mailto:chf_lzy@163.com" class="btn btn-secondary">联系我</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/Lusir04" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:chf_lzy@163.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-dot red"></div>
+                            <div class="window-dot yellow"></div>
+                            <div class="window-dot green"></div>
+                            <span class="window-title">analyst.py</span>
+                        </div>
+                        <div class="window-content">
+                            <pre><code><span class="code-keyword">class</span> <span class="code-variable">InvestmentAnalyst</span>:
+    <span class="code-keyword">def</span> <span class="code-method">__init__</span>(self):
+        self.name = <span class="code-string">"Brady LU"</span>
+        self.focus = [<span class="code-string">"宏观研究"</span>, <span class="code-string">"贵金属"</span>]
+        self.tools = [<span class="code-string">"Python"</span>, <span class="code-string">"波动率分析"</span>]
+        self.cert = <span class="code-string">"CFA备考中"</span>
+        
+    <span class="code-keyword">def</span> <span class="code-method">find_value</span>(self):
+        <span class="code-keyword">return</span> <span class="code-string">"未被发现的价值洼地"</span></code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"><div class="wheel"></div></div>
+                <span>向下滚动</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">关于我</h2>
+                <p class="section-subtitle">宏观视野与深度研究的结合</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>发现价值洼地的猎手</h3>
+                    <p>
+                        我毕业于湖南大学金融工程专业，拥有扎实的量化分析基础与宏观经济理论功底。专注于宏观预测与未来大宗商品的趋势分析，具备极佳的全球视野与历史纵深。
+                    </p>
+                    <p>
+                        我致力于中长期价值投资，善于通过监测市场资金流量与二阶波动率变化，洞悉市场情绪周期，判断博弈各方意图，从而发现未被发现的价值洼地。
+                    </p>
+                    <p>
+                        目前CFA备考中，目标三年内成为持证人，系统提升资产估值与组合管理能力。
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">CFA Level I<br>备考进度%</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">深度研究<br>项目</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="8">0</span>
+                            <span class="stat-label">核心分析<br>技能</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">研究项目</h2>
+                <p class="section-subtitle">学术深度与实务应用的结合</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #FFD700 0%, #B8860B 100%);">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="查看详情">
+                                <i class="fas fa-file-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>经济政策不确定下的贵金属价格预测</h3>
+                        <p>基于经济政策不确定性指数，构建贵金属价格预测模型。研究发现黄金在通胀环境下具有极强的原生货币属性，而白银对政策波动更敏感，在政策套利模式中更有效。</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">时间序列分析</span>
+                            <span class="tag">宏观经济</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="查看详情">
+                                <i class="fas fa-chart-pie"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>资金流向与波动率资产配置策略</h3>
+                        <p>通过监测市场资金流量与二阶波动率变化，构建情绪周期驱动的资产配置框架，识别博弈各方意图，优化中长期投资组合风险收益比。</p>
+                        <div class="project-tags">
+                            <span class="tag">量化分析</span>
+                            <span class="tag">资产配置</span>
+                            <span class="tag">风险管理</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="查看详情">
+                                <i class="fas fa-graduation-cap"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CFA知识体系与实务应用研究</h3>
+                        <p>系统梳理CFA三级知识体系，将道德规范、资产估值与组合管理理论应用于实际投资分析场景，建立严谨的投资决策框架。</p>
+                        <div class="project-tags">
+                            <span class="tag">财务分析</span>
+                            <span class="tag">组合管理</span>
+                            <span class="tag">职业道德</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="projects-more">
+                <a href="https://github.com/Lusir04" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i>
+                    <span>查看更多研究</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">核心能力</h2>
+                <p class="section-subtitle">专业技能与研究方法论</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>分析研究</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-globe skill-icon"></i>
+                            <span class="skill-name">宏观研究</span>
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-coins skill-icon"></i>
+                            <span class="skill-name">贵金属分析</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-industry skill-icon"></i>
+                            <span class="skill-name">行业研究</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>量化工具</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-python skill-icon"></i>
+                            <span class="skill-name">Python数据分析</span>
+                            <div class="skill-level" data-level="88"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line skill-icon"></i>
+                            <span class="skill-name">波动率分析</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel skill-icon"></i>
+                            <span class="skill-name">Excel高级建模</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>投资实务</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-balance-scale skill-icon"></i>
+                            <span class="skill-name">资产配置</span>
+                            <div class="skill-level" data-level="82"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-certificate skill-icon"></i>
+                            <span class="skill-name">CFA知识体系</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-search-dollar skill-icon"></i>
+                            <span class="skill-name">价值投资</span>
+                            <div class="skill-level" data-level="88"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">联系我</h2>
+                <p class="section-subtitle">期待与您探讨投资机会</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>资产配置咨询与合作</h3>
+                    <p>
+                        如果您对宏观趋势、贵金属配置或中长期价值投资有兴趣，欢迎与我联系。我致力于通过深度研究发现价值洼地，为您的资产配置提供专业视角。
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:chf_lzy@163.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="contact-label">邮箱</span>
+                                <span class="contact-value">chf_lzy@163.com</span>
+                            </div>
+                        </a>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="contact-label">工作模式</span>
+                                <span class="contact-value">远程办公</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" " autocomplete="name">
+                        <label for="name">姓名</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" " autocomplete="email">
+                        <label for="email">邮箱</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder=" " rows="5"></textarea>
+                        <label for="message">消息内容</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>发送消息</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>
+                    <span>Brady LU</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </div>
+                <p class="footer-text">
+                    CFA备考中 | 投资分析师 | 远程办公 | &copy; <span id="year"></span> 
+                </p>
+                <div class="footer-social">
+                    <a href="https://github.com/Lusir04" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:chf_lzy@163.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="回到顶部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
